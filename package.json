@@ -1,0 +1,43 @@
+{
+  "name": "appolo-fedaration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node index.ts",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "class-validator": "^0.13.2",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/node": "^17.0.23",
+    "@types/semver": "^7.3.9",
+    "graphql-query-complexity": "^0.11.0",
+    "nodemon": "^2.0.15",
+    "semver": "^7.3.7",
+    "ts-node": "^10.7.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.36.1",
+    "@apollo/gateway": "^2.0.1",
+    "@apollo/subgraph": "^2.0.1",
+    "@graphql-tools/schema": "^8.3.10",
+    "@graphql-tools/utils": "^8.6.9",
+    "apollo-server": "^3.6.7",
+    "apollo-server-plugin-response-cache": "^3.5.2",
+    "class-validator": "^0.13.2",
+    "glob": "^8.0.1",
+    "graphql": "^16.3.0",
+    "graphql-subscriptions": "^2.0.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
